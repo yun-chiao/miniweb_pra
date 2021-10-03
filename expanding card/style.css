@@ -17,7 +17,7 @@ body {
 }
 
 .container{
-    width: 70vw;
+    width: 50vw;
     height: 90vh;
     display: flex;
     flex-direction: column;
