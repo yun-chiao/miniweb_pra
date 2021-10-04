@@ -6,10 +6,9 @@
 
 body {
   font-family: 'Muli', sans-serif;
-  background-color: rgb(230, 234, 247);
+  background-color: rgb(203, 198, 204);
   text-align: center;
   height: 100vh;
-  overflow: hidden;
   margin: 0;
 }
 h1{
@@ -20,7 +19,6 @@ h1{
 .faq-container{
   max-width: 600px;
   margin: auto;
-
 }
 .faq{
   border-color: gray;
@@ -28,21 +26,46 @@ h1{
   border-width: 2px;
   width: 500px;
   height: 100px;
-
+  padding: 20px 0px;
   border-radius: 30px;
-}
-
-.faq {
   background-color: transparent;
   border: 1px solid #9fa4a8;
   border-radius: 10px;
-  margin: 20px 0;
-  padding: 30px;
+  margin: 20px auto;
   position: relative;
   overflow: hidden;
   transition: 0.3s ease;
-
-  
 }
 
+.faq p{
+  display: none;
+}
 
+.faq.active p{
+  display: block;
+}
+.faq.active{
+  background-color: rgba(248, 245, 215, 0.452);
+  background-image: url(/icon/qa.png);
+  background-size: 50%;
+  background-position: -60px 30px;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.faq-toggle{
+  background-image: url(/icon/down-arrow.png);
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: transparent;
+  border: transparent;
+  position: absolute;
+  top: 38px;
+  right: 30px;
+}
+
+.faq-toggle.active{
+  background-image: url(/icon/x-mark.png);
+}
