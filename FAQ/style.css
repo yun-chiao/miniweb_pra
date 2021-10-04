@@ -46,7 +46,7 @@ h1{
 }
 .faq.active{
   background-color: rgba(248, 245, 215, 0.452);
-  background-image: url(/icon/qa.png);
+  background-image: url('../icon/qa.png');
   background-size: 50%;
   background-position: -60px 30px;
   background-repeat: no-repeat;
@@ -54,7 +54,7 @@ h1{
 }
 
 .faq-toggle{
-  background-image: url(/icon/down-arrow.png);
+  background-image: url('../icon/down-arrow.png');
   background-size: contain;
   width: 25px;
   height: 25px;
@@ -67,5 +67,5 @@ h1{
 }
 
 .faq-toggle.active{
-  background-image: url(/icon/x-mark.png);
+  background-image: url('../icon/x-mark.png');
 }
